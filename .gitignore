@@ -1,3 +1,61 @@
-notes.md
-*.pdf
+# ==============================================================
+# Instructor-only — stays local, NOT pushed to GitHub
+# ==============================================================
+# Convention: any folder named "_instructor" (at any depth) is private.
+# Put mentor-only files there:
+#   - teaching scripts, pacing notes
+#   - source curriculum, instructor schedule
+#   - slide decks, reference PDFs
+#   - anything you don't want students to see
+curriculam.pdf
+_instructor/
+_history/
+questions.md
+
+# Personal drafts / private working files (any depth)
+*.local.md
+*.private.md
+
+# ==============================================================
+# Secrets — never commit
+# ==============================================================
 .env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# ==============================================================
+# Python build artifacts
+# ==============================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# ==============================================================
+# Virtual environments
+# ==============================================================
+venv/
+.venv/
+env/
+
+# ==============================================================
+# OS / Editor noise
+# ==============================================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==============================================================
+# Claude Code local state (mentor's machine only)
+# ==============================================================
+CLAUDE.md
+.claude/settings.local.json
+CLAUDE.local.md
