@@ -50,6 +50,13 @@ Write a one-line comment next to each `print` saying what you expected.
 ### 4. The +1 trap
 Why does `"5" + 1` fail but `5 + 1` work? In a comment cell, write your answer in your own words, then write code that **fixes** `"5" + 1` to give you `6`.
 
+<details>
+<summary>💡 <b>Stuck?</b> Click for a nudge</summary>
+
+`"5"` (with quotes) is a **string**. `5` (no quotes) is an **int**. Python refuses to add a string and an int. To rescue `"5" + 1`, **convert** the string into an int first — there's a built-in function for that — then add.
+
+</details>
+
 ### 5. Concatenation
 Given:
 ```python
@@ -63,6 +70,28 @@ Given `s = "Artificial Intelligence"`, print:
 - The length of the string.
 - The length without the space (hint: `replace`).
 
+### 🔍 Visual cheat sheet — string indexing (use this for Q7 + Q8)
+
+```mermaid
+flowchart LR
+    subgraph st["s = 'HELLO'"]
+        direction LR
+        A0["H<br/>[0]<br/>[-5]"]
+        A1["E<br/>[1]<br/>[-4]"]
+        A2["L<br/>[2]<br/>[-3]"]
+        A3["L<br/>[3]<br/>[-2]"]
+        A4["O<br/>[4]<br/>[-1]"]
+        A0 --- A1 --- A2 --- A3 --- A4
+    end
+    style A0 fill:#fee2e2,stroke:#991b1b,color:#991b1b
+    style A1 fill:#fef9c3,stroke:#854d0e,color:#854d0e
+    style A2 fill:#fed7aa,stroke:#9a3412,color:#9a3412
+    style A3 fill:#dcfce7,stroke:#166534,color:#166534
+    style A4 fill:#dbeafe,stroke:#1e40af,color:#1e40af
+```
+
+> 💡 Each character has **two index numbers** — positive (counts from front) and negative (counts from back). For slicing, remember the stop index is **exclusive**: `s[1:4]` gives `'ELL'`, not `'ELLO'`.
+
 ### 7. Indexing
 Given `word = "FOUNDATION"`:
 - Print the first character.
@@ -75,6 +104,8 @@ Given `course = "AI ML 101"`:
 - Print just `"ML"`.
 - Print just `"101"`.
 - Print the whole thing **reversed** (hint: `course[::-1]`).
+
+> 🎬 **One-click visualizer:** [open this problem in Python Tutor](https://pythontutor.com/visualize.html#code=course%20%3D%20%22AI%20ML%20101%22%0Aprint%28course%5B0%3A2%5D%29%0Aprint%28course%5B3%3A5%5D%29%0Aprint%28course%5B6%3A9%5D%29%0Aprint%28course%5B%3A%3A-1%5D%29&mode=edit&py=3) — code is pre-loaded. Click **Visualize Execution** and step through to *see* the slice happen.
 
 ### 9. Repeat
 Print a separator line of 40 dashes. Then print the word `"WOW"` repeated 5 times.
@@ -211,6 +242,17 @@ City:  Mumbai
 - Use `.strip()`, `.split()`, `.title()`, `.lower()`, `int()`, `in`, and at least one f-string.
 - Keep it under 20 lines of code.
 - If you can't get the conditional `Adult/Minor` text working, hardcode it for now — we'll cover proper `if`/`else` in Session 2.2.
+
+<details>
+<summary>💡 <b>Stuck on a step?</b> Click for graduated hints</summary>
+
+- **Splitting (Step 2):** `raw_entry.strip().split(" | ")` returns a **list** of 4 items. Index it: `fields[0]`, `fields[1]`, etc.
+- **Chaining methods (Step 3):** You can chain method calls — `fields[0].strip().title()` strips spaces first, then title-cases.
+- **Converting age:** `int(fields[1].strip())` turns the string `"22"` into the integer `22`.
+- **Booleans (Step 4):** `age >= 18` already evaluates to `True` or `False` — store it directly.
+- **The label (Step 5):** If you don't yet know `if/else`, just hardcode `"Adult"` and `"Valid"` for now. We'll cover `if/else` in 2.2.
+
+</details>
 
 > 💡 **Why this matters:** This is exactly what the opening phase of every data-science task looks like — the data arrives messy, and you clean it before you can analyse it.
 
