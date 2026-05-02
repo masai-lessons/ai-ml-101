@@ -20,6 +20,28 @@
 ### 1. Build a list
 Create a list called `subjects` with these five items: `"Maths"`, `"Physics"`, `"Chemistry"`, `"Biology"`, `"English"`. Print it.
 
+### 🔍 Visual cheat sheet — list indexing (use this for Q2 + Q3)
+
+```mermaid
+flowchart LR
+    subgraph st["subjects = ['Maths', 'Physics', 'Chemistry', 'Biology', 'English']"]
+        direction LR
+        A0["Maths<br/>[0]<br/>[-5]"]
+        A1["Physics<br/>[1]<br/>[-4]"]
+        A2["Chemistry<br/>[2]<br/>[-3]"]
+        A3["Biology<br/>[3]<br/>[-2]"]
+        A4["English<br/>[4]<br/>[-1]"]
+        A0 --- A1 --- A2 --- A3 --- A4
+    end
+    style A0 fill:#fee2e2,stroke:#991b1b,color:#991b1b
+    style A1 fill:#fef9c3,stroke:#854d0e,color:#854d0e
+    style A2 fill:#fed7aa,stroke:#9a3412,color:#9a3412
+    style A3 fill:#dcfce7,stroke:#166534,color:#166534
+    style A4 fill:#dbeafe,stroke:#1e40af,color:#1e40af
+```
+
+> 💡 Same indexing rules as strings from 1.1. Two ticket numbers per item — positive (from front) and negative (from back). For slicing, the stop index is **exclusive**: `subjects[1:4]` gives `['Physics', 'Chemistry', 'Biology']`, not all four.
+
 ### 2. Index practice
 Using your `subjects` list:
 - Print the **first** subject.
@@ -38,6 +60,8 @@ Starting from `subjects = ["Maths", "Physics", "Chemistry", "Biology", "English"
 - Add `"History"` at the end using `.append()`.
 - Remove `"Physics"`.
 - Print the final list.
+
+> 🎬 **One-click visualizer:** [open this in Python Tutor](https://pythontutor.com/visualize.html#code=subjects%20%3D%20%5B%22Maths%22%2C%20%22Physics%22%2C%20%22Chemistry%22%2C%20%22Biology%22%2C%20%22English%22%5D%0Asubjects%5B3%5D%20%3D%20%22Computer%20Science%22%0Asubjects.append%28%22History%22%29%0Asubjects.remove%28%22Physics%22%29%0Aprint%28subjects%29&mode=edit&py=3) — code is pre-loaded. Click **Visualize Execution** and step through to *see* each mutation rearrange the boxes. Mutation is invisible in `print()` but obvious here.
 
 ### 5. The `len()` and `in` check
 Given `cart = ["milk", "bread", "eggs", "butter"]`:
@@ -115,6 +139,19 @@ print(result)
 print(nums)
 ```
 What is `result`? What is `nums`? Why does this confuse beginners?
+
+<details>
+<summary>💡 <b>Got something weird?</b> Click for a teaching note</summary>
+
+If you predicted `result = [1, 2, 3]` — you're not alone. **Every Python beginner gets bitten by this exactly once.**
+
+`.sort()` modifies the list **in place** and returns `None` (nothing). So `result` is `None`, and your sorted list is sitting in `nums`.
+
+Two ways to handle this:
+- Call `.sort()`, then use the **original list** afterwards: `nums.sort(); print(nums)`.
+- Or use `sorted()` instead — it returns a new sorted list: `result = sorted(nums)`.
+
+</details>
 
 ### 14. Convert between list and tuple
 Given:
@@ -217,6 +254,17 @@ Scores    : [12, 8, 45, 33, 21]
 - `match_info` must stay a tuple (don't modify it).
 - `scores` must use list mutation methods.
 - One f-string for the report.
+
+<details>
+<summary>💡 <b>Stuck on a step?</b> Click for graduated hints</summary>
+
+- **Appending a new score:** `scores.append(33)` adds 33 to the end. Same pattern for batter 5.
+- **Correcting batter 2:** Index is `[1]` (zero-based). `scores[1] = 8` overwrites that slot directly.
+- **Aggregates:** `sum(scores)` returns total runs, `max(scores)` returns the highest, `len(scores)` returns the count. All three are *built-in functions* — no need to import anything.
+- **Unpacking:** `venue, date, opposition = match_info` — three variables on the left, three items in the tuple. Order matters.
+- **Tuples stay tuples:** Don't try to call `.append()` on `match_info` — it'll throw `AttributeError`. Tuples are immutable on purpose.
+
+</details>
 
 ---
 

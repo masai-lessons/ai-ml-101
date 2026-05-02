@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="156mm"
+   height="121mm"
+   viewBox="0 0 156 121"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="1D array no text.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.84355128"
+     inkscape:cx="206.2708"
+     inkscape:cy="245.98386"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1">
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-0" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-7" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-8" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-7-3" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-0-1" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-1" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-2" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-1-2" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-0-0" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-0-1-6" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-7-0" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-7-3-1" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-85" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-8-9" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-8" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-9" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-2" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-85" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-8-6" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-9-5" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-8-6-7" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-85-0" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-2-9" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-3" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-96" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-8-5" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-9-6" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-9-5-4" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-4" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-0-5" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-7-9" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-4" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-3" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-5" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-4" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-59" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-4-1" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-3-3" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-7-9-9" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-5-0" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-0-5-0" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-4-6" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-4-0" />
+    <rect
+       x="224.72897"
+       y="384.45016"
+       width="72.75708"
+       height="51.661835"
+       id="rect68-08-0-5-59-8" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-74.069319,-84.144838)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.128958"
+       x="105.56046"
+       y="100.79935"
+       id="text35-27-6"
+       transform="scale(1.0041063,0.99591049)"><tspan
+         id="tspan799-7"
+         x="105.56046"
+         y="100.79935"
+         style="font-size:7.05556px;stroke-width:0.128958">Typical &quot;1 Dimensional&quot; array</tspan></text>
+    <g
+       id="g3"
+       transform="matrix(1.0565404,0,0,1.0565402,-7.8825092,-12.153768)"
+       style="stroke-width:0.946485">
+      <g
+         id="g11"
+         transform="matrix(0.81977287,0,0,0.81977287,25.530669,30.128928)"
+         style="stroke-width:1.05544">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0689105"
+           id="rect1-1-6-4"
+           width="34.547421"
+           height="34.547421"
+           x="85.2686"
+           y="127.07702" />
+        <rect
+           style="fill:#ff9955;stroke:#000000;stroke-width:0.0671865"
+           id="rect1-4-5"
+           width="33.683121"
+           height="33.683121"
+           x="85.700752"
+           y="127.50918" />
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0689105"
+           id="rect1-1-4-4-6"
+           width="34.547421"
+           height="34.547421"
+           x="119.38596"
+           y="127.07785" />
+        <rect
+           style="fill:#ffb380;stroke:#000000;stroke-width:0.0671865"
+           id="rect1-3-0-2"
+           width="33.683121"
+           height="33.683121"
+           x="119.81811"
+           y="127.51001" />
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0689105"
+           id="rect1-1-3-9-1"
+           width="34.547421"
+           height="34.547421"
+           x="153.49998"
+           y="127.07816" />
+        <rect
+           style="fill:#ffccaa;stroke:#000000;stroke-width:0.0671865"
+           id="rect1-6-3-3"
+           width="33.683121"
+           height="33.683121"
+           x="153.93213"
+           y="127.51032" />
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0689105"
+           id="rect1-1-4-0-5-7"
+           width="34.547421"
+           height="34.547421"
+           x="187.61734"
+           y="127.07898" />
+        <rect
+           style="fill:#ffe6d5;stroke:#000000;stroke-width:0.0671865"
+           id="rect1-3-8-7-3"
+           width="33.683121"
+           height="33.683121"
+           x="188.0495"
+           y="127.51114" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2544px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.4454"
+           x="97.379692"
+           y="151.03897"
+           id="text35-27-6-3"
+           transform="scale(1.0041063,0.99591049)"><tspan
+             id="tspan799-7-0"
+             x="97.379692"
+             y="151.03897"
+             style="stroke-width:0.4454">0</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2544px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.4454"
+           x="131.94727"
+           y="151.14513"
+           id="text35-27-6-3-3"
+           transform="scale(1.0041063,0.99591049)"><tspan
+             id="tspan799-7-0-3"
+             x="131.94727"
+             y="151.14513"
+             style="stroke-width:0.4454">1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2544px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.4454"
+           x="165.47173"
+           y="151.14543"
+           id="text35-27-6-3-8"
+           transform="scale(1.0041063,0.99591049)"><tspan
+             id="tspan799-7-0-9"
+             x="165.47173"
+             y="151.14543"
+             style="stroke-width:0.4454">2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2544px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.4454"
+           x="199.28461"
+           y="151.03673"
+           id="text35-27-6-3-2"
+           transform="scale(1.0041063,0.99591049)"><tspan
+             id="tspan799-7-0-33"
+             x="199.28461"
+             y="151.03673"
+             style="stroke-width:0.4454">3</tspan></text>
+      </g>
+      <g
+         id="g2"
+         transform="matrix(0,-0.89676413,0.89676413,0,-11.3772,323.61111)"
+         style="stroke-width:1.05544">
+        <path
+           style="fill:#ffe6d5;fill-rule:evenodd;stroke:#000000;stroke-width:1.3271px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 222.59657,116.38983 0.0404,130.25419"
+           id="path13-7-9-7-9-3-8-7-3-9-9-8-5-2-9" />
+        <path
+           style="fill:#00cece;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.29429px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 216.42629,116.98731 6.80102,0.0172"
+           id="path13-7-9-7-1-8-6-1-0-8-0-9-7-4-9" />
+        <path
+           style="fill:#00cece;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.29429px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 216.45843,245.99525 6.80096,0.0321"
+           id="path13-7-9-7-1-8-6-1-0-8-0-9-7-8-7-1" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64401px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.122057"
+         x="135.55641"
+         y="119.4868"
+         id="text35-27-6-8-5-7"
+         transform="matrix(1.0040685,0.00872026,-0.00864911,0.99587287,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           x="135.55641"
+           y="119.4868">[x] (elements)</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.27271px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.128958"
+       x="88.870041"
+       y="181.32391"
+       id="text35-27-6-7"
+       transform="scale(1.0041063,0.99591049)"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="88.870041"
+         y="181.32391">Element indexes are typically defined in the format <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan8">[x]</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="88.870041"
+         y="187.92761"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan9">[x]</tspan> being the number of elements</tspan><tspan
+         sodipodi:role="line"
+         x="88.870041"
+         y="194.53131"
+         id="tspan6">For example: this array could be defined as <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan1">array[4]</tspan></tspan></text>
+  </g>
+</svg>
